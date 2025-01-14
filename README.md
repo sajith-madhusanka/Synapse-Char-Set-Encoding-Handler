@@ -21,9 +21,9 @@ The Synapse handler:
 
 1. Add the following configuration to the `deployment.toml` file:
    ```toml
-   [synapse_handlers.CharacterSetEncodingHandler]
+   [synapse_handlers.CharSetEncodingSynapseHandler]
    enabled = true
-   class = "org.wso2.com.sample.CharacterSetEncodingHandler"
+   class = "org.wso2.com.sample.CharSetEncodingSynapseHandler"
    ```
 
    ## Steps to Engage
